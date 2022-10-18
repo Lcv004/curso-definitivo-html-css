@@ -1,0 +1,27 @@
+/* Para relacionar fácilmente la medida rem con la de px,
+fijamos el font size de html a un 62.5%, lo cual se traduce
+a una medida de 10px (donde 16px es la medida por defecto.
+Por lo que cada 1rem significará 10px. */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: indigo;
+}
+
+section {
+  width: 80%;
+  min-width: 300px;
+  max-width: 450px;
+  min-height: 250px;
+  margin: 0 auto;
+  background-color: pink;
+}

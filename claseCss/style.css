@@ -1,0 +1,17 @@
+/* Style for an element */
+p {
+    color: darkblue;
+    font-size: 24px;
+}
+
+/* Style for a class */
+.article{
+    color: brown;
+    font-size: 20px;
+}
+
+/* Style for an ID */
+#text{
+    color: cadetblue;
+    font-size: 16px;
+}
